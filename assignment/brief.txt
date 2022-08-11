@@ -1,0 +1,67 @@
+1. function radianToDegree(radian)
+Formula: 1 radian = (180/PI) degrees
+
+return degree (2 decimal places)
+
+2. function isJavaScriptFile(string)
+.js ----> return true
+else ----> return false
+
+
+3. function oilPrice(dieselQty, petrolQty, octaneQty)
+
+diesel ---> 114/litre
+petrol ---> 130/litre
+octane ---> 135/litre
+
+4. function publicBusFare(totalPassengers)
+
+
+Reserve/Private bus ------> 50
+Micro bus ------> 11
+Public Bus ------> Rest
+
+e.g;
+fare per person = 250
+people: 65
+Private Bus: 50
+Remaining: 65 - 50 = 15
+Microbus: 11
+Remaining: 15 - 11 = 4
+Public Bus = 4
+Fare: 4*250 = 1000
+
+fare per person = 250
+people: 235
+Private Bus: 50 * 4 private buses
+Remaining: 235 - 200 = 35
+Microbus: 11 * 3 microbuses
+Remaining: 35 - 33 = 2
+Public Bus = 2
+Fare: 2*250 = 500
+
+
+
+5. function isBestFriend(object1,object2)
+
+Case-1:
+obj1 = {name: 'Tom', friend: 'Rock'}
+obj2 = {name: 'Rock', friend: 'Tom'}
+TRUE
+
+Case-2:
+obj1 = {name: 'Chris', friend: 'Tyler'}
+obj2 = {name: 'James', friend: 'Richard'}
+FALSE
+
+Case-3:
+obj1 = {name: 'Chris', friend: 'James'}
+obj2 = {name: 'James', friend: 'Richard'}
+FALSE
+
+
+
+BONUS:
+1. Check type for inappropriate parameters and handle the error
+2. Meaningful variable names, comments
+3. Don't use var. Use let or const.
