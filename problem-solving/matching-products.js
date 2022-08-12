@@ -26,3 +26,4 @@ console.log(result1);
 
 const result2 = matchedProducts(products, 'laptop');
 console.log(result2);
+
