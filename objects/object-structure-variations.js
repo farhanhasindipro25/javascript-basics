@@ -103,3 +103,16 @@ console.log(".....Accessing function as values.....");
 console.log();
 console.log(me.hobbies); // type: function name
 me.hobbies(); // Invokes function and shows output
+
+
+const products = {
+    '0':15,
+    '1':56,
+    '2':87
+}
+console.log(products);
+console.log(products[0]);
+console.log(products[1]);
+console.log(products[2]);
+console.log(products[3]);
+
