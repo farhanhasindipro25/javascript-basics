@@ -128,34 +128,34 @@ function isBestFriend(person1, person2){
         }
     }
 }
-const person1 = {
-    name: 'abul',
-    friend: 'babul'
-}
-const person2 = {
-    name: 'babul',
-    friend: 'abul'
-}
-console.log(isBestFriend(person1,person2));
+// const person1 = {
+//     name: 'abul',
+//     friend: 'babul'
+// }
+// const person2 = {
+//     name: 'babul',
+//     friend: 'abul'
+// }
+// console.log(isBestFriend(person1,person2));
 
-const person3 = {
-    name: 'abul',
-    friend: 'kabul'
-}
-const person4 = {
-    name: 'kabul',
-    friend: 'sabul'
-}
-console.log(isBestFriend(person3,person4));
+// const person3 = {
+//     name: 'abul',
+//     friend: 'kabul'
+// }
+// const person4 = {
+//     name: 'kabul',
+//     friend: 'sabul'
+// }
+// console.log(isBestFriend(person3,person4));
 
-const person5 = {
-    name: 'doe',
-    friend: 'alex'
-}
-const person6 = {
-    name: 'john',
-    friend: 'doe'
-}
-console.log(isBestFriend(person5,person6));
+// const person5 = {
+//     name: 'doe',
+//     friend: 'alex'
+// }
+// const person6 = {
+//     name: 'john',
+//     friend: 'doe'
+// }
+// console.log(isBestFriend(person5,person6));
 
-console.log(isBestFriend(5,6));
+// console.log(isBestFriend(5,6));
